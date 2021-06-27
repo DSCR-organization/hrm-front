@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #140b0b;
+  background: #e7eae5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* header svg {
+  font-size: 40px;
+  color: #262b2f;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  padding: 10px;
+  background: rgb(160, 212, 246);
+  background: linear-gradient(
+    86deg,
+    rgba(160, 212, 246, 1) 0%,
+    rgba(31, 139, 225, 1) 48%,
+    rgba(31, 139, 225, 1) 80%
+  );
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-toggle {
+  margin-left: 300px;
+  transition: all 1s;
+} */
+
+/* .sidenav {
+  width: 300px;
+  background: #011627;
+  position: fixed;
+  height: 100vh;
+  left: -300px;
+  transition:  all 1s;
+}
+
+.sidenav.active {
+  left: 0;
+} */
+
+/* .logo {
+  width: 80px;
+  padding: 10px;
+  position: relative;
+  left: 100px;
+} */
+
+/* ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #eaecef;
+  text-decoration: none;
+  font-size: 16px;
   display: flex;
-  flex-direction: column;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a:hover,
+ul li a.active {
+background: #172b4d;
+border-left: 4px solid #288ebd;
+cursor: pointer;
+}
+
+ul li a svg {
+  margin-right: 15px;
+} */
+
+/* .main {
+  margin: 0 16px;
+}
+
+.toggle-main {
+  margin-left: 310px;
+  transition: all 1s;
+} */
+
+.open-close {
+  margin-left: 15px;
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+}
+
+/* .drop-down {
+  background: #132138;
+  height: 15px;
+  padding-left: 3rem;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.drop-down:hover {
+  background: #6d96d4;
+  cursor: pointer;
+} */

@@ -1,0 +1,21 @@
+header svg {
+    font-size: 40px;
+    color: #262b2f;
+    cursor: pointer;
+  }
+  
+  header {
+    padding: 10px;
+    background: rgb(160, 212, 246);
+    background: linear-gradient(
+      86deg,
+      rgba(160, 212, 246, 1) 0%,
+      rgba(31, 139, 225, 1) 48%,
+      rgba(31, 139, 225, 1) 80%
+    );
+  }
+  
+  .header-toggle {
+    margin-left: 300px;
+    transition: all 1s;
+  }

@@ -1,0 +1,9 @@
+.main {
+    /* height: 90vh; */
+    margin: 0 16px;
+  }
+  
+  .toggle-main {
+    margin-left: 310px;
+    transition: all 1s;
+  }

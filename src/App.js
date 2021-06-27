@@ -1,19 +1,15 @@
-import { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import "./App.css";
-import  About  from './pages/About'
-import  Home  from './pages/Home'
+import { createBrowserHistory } from 'history';
 import MainLayout from "./layout/main_layout/MainLayout";
+
+const history = createBrowserHistory();
 
 function App() {
   return (
     <>
-      <Router>
+    <Router history={history}>
         <MainLayout/>
-        <div /* className={showNav ? "toggle-main main" : "main"} */>
-          <Route path="/" exact={true} component={Home}/>
-          <Route path="/about" exact={true} component={About}/>
-        </div>
       </Router>
     </>
   );

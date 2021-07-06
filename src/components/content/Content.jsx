@@ -3,7 +3,7 @@ import "./Content.css"
 function Content(props) {
     return (
         <div className={props.show ? "toggle-main main" : "main"}>
-          {props.children}
+          {props.content}
       </div>
     )
 }

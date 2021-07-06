@@ -1,15 +1,15 @@
-import { BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import { createBrowserHistory } from 'history';
-import MainLayout from "./layout/main_layout/MainLayout";
+import Routes from "./Routes";
 
 const history = createBrowserHistory();
 
 function App() {
   return (
     <>
-    <Router history={history}>
-        <MainLayout/>
+      <Router history={history}>
+          <Routes /> 
       </Router>
     </>
   );
